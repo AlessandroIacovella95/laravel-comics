@@ -110,5 +110,30 @@ return [
         "sale_date" => "2019-04-10",
         "type" => "graphic novel",
     ]
-  ]
+    ],
+
+  'cards' =>[
+    [
+    "pic"=> "buy-comics-digital-comics.png",
+    "pic_text"=> "DIGITAL COMICS",
+    ],
+    [
+    "pic" => "buy-comics-merchandise.png",
+    "pic_text"=> "DC MERCHANDISE"
+    ],
+  
+    [
+    "pic" => "buy-comics-merchandise.png",
+    "pic_text"=> "DC MERCHANDISE"
+    ],
+    [
+    "pic" => "buy-comics-merchandise.png",
+    "pic_text"=> "DC MERCHANDISE"
+    ],
+    [
+    "pic" => "buy-comics-merchandise.png",
+    "pic_text"=> "DC MERCHANDISE"
+    ],
+],
+
 ];

@@ -16,5 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $title = 'Dc-Comics';
     $comics = config('db.comic');
-    return view('home', compact('title','comics' ));
+    $footer_img = config('db.cards');
+    return view('home', compact('title','comics', 'footer_img' ));
 })->name('home');
