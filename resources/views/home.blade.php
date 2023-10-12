@@ -28,5 +28,8 @@
       </div>
     </div>
 </section>
+@endsection
+
+@section ('footer-content')
 
 @endsection
