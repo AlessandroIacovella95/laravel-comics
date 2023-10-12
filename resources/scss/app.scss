@@ -1,17 +1,71 @@
 @import "~bootstrap/scss/bootstrap";
+.jumbtron {
+    height: 320px;
+    margin-bottom: 50px;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0% 0%;
+    }
+}
 .logo {
     width: 50px;
     margin-right: 25px;
 }
-.card {
-    height: 265px;
-    .custom-img {
-        width: 200px;
-        aspect-ratio: 1;
-    }
+section {
+    padding-bottom: 20px;
+    background-color: black;
+    .container {
+        position: relative;
+        .card_comics {
+            height: 265px;
+            .custom-img {
+                width: 200px;
+                aspect-ratio: 1;
+            }
 
-    h4 {
-        margin-top: 15px;
+            h4 {
+                color: white;
+                margin-top: 15px;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.button_comics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto 0 auto;
+    width: 150px;
+    color: white;
+    background-color: #0c7cec;
+    cursor: pointer;
+
+    padding: 8px 20px;
+    span {
+        font-size: 0.8rem;
+    }
+}
+
+.current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    width: 200px;
+    color: white;
+    background-color: #0c7cec;
+    cursor: pointer;
+
+    padding: 8px 20px;
+    position: absolute;
+    top: -62px;
+    left: 50px;
+    span {
         font-size: 1rem;
+        font-weight: bold;
     }
 }
